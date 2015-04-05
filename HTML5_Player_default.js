@@ -8,5 +8,6 @@
 // @require      http://code.jquery.com/jquery-latest.js
 // @grant        none
 // ==/UserScript==
-
-$('#ADT-PlayHTML5-btn').click();
+windows.onload = function () {
+    $('#ADT-PlayHTML5-btn').click();
+}
