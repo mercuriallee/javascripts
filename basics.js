@@ -1,4 +1,4 @@
-function range(start, end){
+export function range(start, end){
     if(end < start) {
         throw new Error("Range end index must larger than start index.");
     }
